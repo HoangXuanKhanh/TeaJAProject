@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <LinearLayout
+        android:id="@+id/ln_JapanN4"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_japanN4"
+            android:src="@drawable/ic_videon5"
+            android:scaleType="centerCrop"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_japanN4"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:paddingStart="10dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginStart="170dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/img_backvideon4"
+            android:background="@drawable/ic_japan5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

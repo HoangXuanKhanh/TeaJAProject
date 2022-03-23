@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/N5"
+        android:icon="@drawable/ic_nnnnnn"
+        android:title="@string/bot_N5"
+        />
+    <item
+        android:id="@+id/N4"
+        android:icon="@drawable/ic_nnnnnn"
+        android:title="@string/bot_N4"
+        />
+    <item
+        android:id="@+id/N3"
+        android:icon="@drawable/ic_nnnnnn"
+        android:title="@string/bot_N3"
+        />
+    <item
+        android:id="@+id/N2"
+        android:icon="@drawable/ic_nnnnnn"
+        android:title="@string/bot_N2"
+        />
+    <item
+        android:id="@+id/N1"
+        android:icon="@drawable/ic_nnnnnn"
+        android:title="@string/bot_N1"
+        />
+
+</menu>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "736377185453",
+    "project_id": "teajalogin",
+    "storage_bucket": "teajalogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736377185453:android:b3fd1b75bdf4a8c5c01224",
+        "android_client_info": {
+          "package_name": "com.example.teaja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736377185453-fno1a8eimt1vgqa006hgjkppqgnmi0ik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teaja",
+            "certificate_hash": "932bc01b66d49de3ed1f8d1468081024a4d4967c"
+          }
+        },
+        {
+          "client_id": "736377185453-abu2tus9cjm730js3k80a4vq0tdlhmmm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHSbnXgEE6ch7QsaX8EEj-oKPMs9fBYE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736377185453-abu2tus9cjm730js3k80a4vq0tdlhmmm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

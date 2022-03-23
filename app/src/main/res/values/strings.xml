@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TeaJA</string>
+    <string name="nav_Home">Home</string>
+    <string name="nav_Favorite">Favorite</string>
+    <string name="nav_History">History</string>
+    <string name="nav_Acount">Account</string>
+    <string name="nav_Profiles">My Profile</string>
+    <string name="nav_PassWord">Change PassWord</string>
+    <string name="nav_draw_open">Open draw</string>
+    <string name="nav_draw_close">Close draw</string>
+
+    <string name="nav_BackHome">Back Home</string>
+    <string name="nav_Hiragana">Hiragana</string>
+    <string name="nav_Katakana">Katakana</string>
+
+    <string name="bot_N5">N5</string>
+    <string name="bot_N4">N4</string>
+    <string name="bot_N3">N3</string>
+    <string name="bot_N2">N2</string>
+    <string name="bot_N1">N1</string>
+
+    <string name="menu_Profiles">Profile</string>
+    <string name="menu_PassWord">Password</string>
+    <string name="menu_Setting">Setting</string>
+    <string name="menu_SignOut">Sign Out</string>
+
+</resources>

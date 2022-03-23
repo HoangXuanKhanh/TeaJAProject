@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ic_logins"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="@string/app_name"
+            android:textColor="#321D1D"
+            android:textSize="40sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:padding="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp">
+
+        <EditText
+            android:id="@+id/ed_NameV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:inputType="text"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bord"
+            android:imeOptions="actionNext"
+            android:drawableStart="@drawable/ic_account"
+            android:drawablePadding="10dp"
+            android:hint="UserName"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/ed_EmailV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:inputType="textEmailAddress"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bord"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="10dp"
+            android:hint="Email"
+            android:imeOptions="actionNext"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/ed_PassV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:imeOptions="actionDone"
+            android:background="@drawable/bord"
+            android:drawableStart="@drawable/ic_pass"
+            android:drawablePadding="10dp"
+            android:hint="PassWord"
+            android:inputType="textPassword"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layou_FogotPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Forgot Password?"
+            android:textColor="#4CAF50"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layou_SignUpV"
+        android:orientation="horizontal"
+        android:layout_marginTop="530dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account?"
+            android:textStyle="normal"
+            android:textColor="#504F4F"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:textStyle="normal"
+            android:textColor="#378E3A"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/bord_log"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Log In"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

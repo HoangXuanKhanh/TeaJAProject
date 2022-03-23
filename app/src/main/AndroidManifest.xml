@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.teaja">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".SearcherTK.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_sisimss"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_sisimss_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TeaJA">
+        <activity
+            android:name="layoufavorite.CatyTwo.DetailCatatyFavorite"
+            android:parentActivityName="layoufavorite.CatyTwo.DetailCaty2"
+            android:exported="false" />
+        <activity
+            android:name=".Minnna.item_minnaFiva"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Minnna.item_minnaFour"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Minnna.item_minnaThree"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Minnna.item_minnaTwo"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Minnna.item_minnaOne"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Kanji.DetailNewKanjiFive"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Kanji.DetailNewKanjiYour"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Kanji.DetailNewKanjiThree"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Kanji.DetailNewKanjiTwo"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Kanji.DetailNewKanjiOne"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".sqlTracNghiem.MainActivityTracNghiem"
+            android:exported="false"
+            android:parentActivityName="layoufavorite.DetaileCa1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FragmentTEAJA.MainActivityTieuDe"
+            android:exported="false"
+            android:parentActivityName="layoufavorite.CatyTwo.DetailCaty1" />
+        <activity
+            android:name=".BaiTap.MainActivityBaiTapN5"
+            android:exported="false"
+            android:parentActivityName=".BaiTap.DetailBaiTap5" />
+        <activity
+            android:name=".NguPhap.MainActivityNguPhapN5"
+            android:exported="false"
+            android:parentActivityName=".NguPhap.DetailNguPhap5" />
+        <activity
+            android:name=".TuVung.MainActivityDetaiTVN5"
+            android:exported="false"
+            android:parentActivityName=".TuVung.DetailTuVung5" />
+        <activity
+            android:name=".JLPT.DetailJLPTN5"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".JLPT.DetailJLPTN4"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".JLPT.DetailJLPTN3"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".JLPT.DetailJLPTN2"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".BaiTap.DetailBaiTap5"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".BaiTap.DetailBaiTap4"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".BaiTap.DetailBaiTap3"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".BaiTap.DetailBaiTap2"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".BaiTap.DetailBaiTap1"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".TuVung.DetailTuVung5"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".TuVung.DetailTuVung4"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".TuVung.DetailTuVung3"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".TuVung.DetailTuVung2"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".TuVung.DetailTuVung1"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".NguPhap.DetailNguPhap5"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".NguPhap.DetailNguPhap4"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".NguPhap.DetailNguPhap3"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".NguPhap.DetailNguPhap2"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".NguPhap.DetailNguPhap1"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Listen.ListenN5Bai1"
+            android:exported="false"
+            android:parentActivityName=".Listen.MainActivityNghe5" />
+        <activity
+            android:name=".Reading.DetailVideN5Bai1"
+            android:exported="false"
+            android:parentActivityName=".Reading.MainActivityReading5" />
+        <activity
+            android:name=".Reading.MainActivityReading5"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Reading.MainActivityReading4"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Reading.MainActivityReading3"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Reading.MainActivityReading2"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Reading.MainActivityReading1"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Listen.MainActivityNghe1"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Listen.MainActivityNghe2"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Listen.MainActivityNghe3"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Listen.MainActivityNghe4"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Listen.MainActivityNghe5"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".VideoN.MainActivityVN4"
+            android:exported="false"
+            android:parentActivityName=".VideoN.MainActivityVideoN4" />
+        <activity
+            android:name=".VideoN.MainActivityVideoN4"
+            android:exported="false"
+            android:parentActivityName=".VideoN.MainActivityVideoN4" />
+        <activity
+            android:name=".VideoN.MainActivityVN5"
+            android:exported="false"
+            android:parentActivityName=".VideoN.MainActivityVideoN5" />
+        <activity
+            android:name=".VideoN.MainActivityVideoN5"
+            android:exported="false"
+            android:parentActivityName=".VideoN.MainActivityVideoN5" />
+        <activity
+            android:name=".VideoN.MainActivityN1"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".VideoN.MainActivityN2"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".VideoN.MainActivityN3"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".VideoN.MainActivityN4"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".VideoN.MainActivityN5"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".DetaileKatakana"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".DetaileHiragana"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".HistoryDetail.DetaileTraCuu"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityHistoryTEAJA" />
+        <activity
+            android:name=".HistoryDetail.DetaileShare"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityHistoryTEAJA" />
+        <activity
+            android:name=".HistoryDetail.DetaileTroGiup"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityHistoryTEAJA" />
+        <activity
+            android:name=".HistoryDetail.DetaileHocOnline"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityHistoryTEAJA" />
+        <activity
+            android:name=".HistoryDetail.DetaileTroChuyen"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityHistoryTEAJA" />
+        <activity
+            android:name=".HistoryDetail.DetaileKhaiForm"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityHistoryTEAJA" />
+        <activity
+            android:name=".HistoryDetail.DetaileDonHang"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityHistoryTEAJA" />
+        <activity
+            android:name=".HistoryDetail.DetaileTuyenSinh"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityHistoryTEAJA" />
+        <activity
+            android:name=".HistoryDetail.DetaileLuyenThi"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityHistoryTEAJA" />
+        <activity
+            android:name=".HistoryDetail.DetaileLuyenNghe"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityHistoryTEAJA" />
+        <activity
+            android:name=".HistoryDetail.DetaileLuyenViet"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityHistoryTEAJA" />
+        <activity
+            android:name=".HistoryDetail.DetaileLuyenDoc"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityHistoryTEAJA" />
+        <activity
+            android:name=".HistoryDetail.DetailCongDong"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityHistoryTEAJA" />
+        <activity
+            android:name=".HistoryDetail.DetaiSoTay"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityHistoryTEAJA" />
+        <activity
+            android:name="layoufavorite.CatyTwo.DetailCaty5"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.CatyTwo.DetailCaty4"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.CatyTwo.DetailCaty3"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.CatyTwo.DetailCaty2"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.CatyTwo.DetailCaty1"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.CataloryOne.DetaileCata8"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.CataloryOne.DetaileCata7"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.CataloryOne.DetaileCata6"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.CataloryOne.DetaileCata5"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.CataloryOne.DetaileCata4"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.CataloryOne.DetaileCata3"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.CataloryOne.DetaileCata2"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.CataloryOne.DetailCaTa1"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.DetaileCa8"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.DetaileCa7"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.DetaileCa6"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.DetaileCa5"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.DetaileCa4"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.DetaileCa3"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.DetaileCa2"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA" />
+        <activity
+            android:name="layoufavorite.DetaileCa1"
+            android:exported="false"
+            android:parentActivityName=".FragmentTEAJA.MainActivityFavoriteTEAJA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Learning.MainActivityBaiTap"
+            android:exported="false"
+            android:parentActivityName=".MainActivityTJA" />
+        <activity
+            android:name=".Learning.MainActivityMinna"
+            android:exported="false"
+            android:parentActivityName=".MainActivityTJA" />
+        <activity
+            android:name=".Learning.MainActivityJLPT"
+            android:exported="false"
+            android:parentActivityName=".MainActivityTJA" />
+        <activity
+            android:name=".Learning.MainActivityKanji"
+            android:exported="false"
+            android:parentActivityName=".MainActivityTJA" />
+        <activity
+            android:name=".Learning.MainActivityNguPhap"
+            android:exported="false"
+            android:parentActivityName=".MainActivityTJA" />
+        <activity
+            android:name=".Learning.MainActivityTuVung"
+            android:exported="false"
+            android:parentActivityName=".MainActivityTJA" />
+        <activity
+            android:name=".DetaileABC"
+            android:exported="false"
+            android:parentActivityName=".MainActivityTJA" />
+        <activity
+            android:name=".ForgotPassWordMainActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SingInMainActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentTEAJA.MainActivitySetting"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".FragmentTEAJA.MainActivityPassword"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".FragmentTEAJA.MainActivityMyprofile"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".FragmentTEAJA.MainActivityHeaderRing"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".FragmentTEAJA.MainActivityHistoryTEAJA"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".FragmentTEAJA.MainActivityFavoriteTEAJA"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".FragmentTEAJA.MainActivityFavoriteTEAJA"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".MainActivityTJA"
+            android:exported="false" />
+        <activity
+            android:name=".DetailRead"
+            android:exported="false"
+            android:parentActivityName=".MainActivityTJA" />
+        <activity
+            android:name=".DetailListen"
+            android:exported="false"
+            android:parentActivityName=".MainActivityTJA" />
+        <activity
+            android:name=".DetaileVideo"
+            android:exported="false"
+            android:parentActivityName=".MainActivityTJA" />
+        <activity
+            android:name=".LoginMainActivity2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

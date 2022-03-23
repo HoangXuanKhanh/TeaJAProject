@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#011923"
+    tools:context=".FragmentTEAJA.MainActivityMyprofile">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/bord_recylerview1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_MyProfile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/ic_user" />
+        <TextView
+            android:text="@string/app_name"
+            android:textColor="#037808"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/edt_NameMyProfile"
+        android:hint="Full Name"
+        android:textSize="18sp"
+        android:maxLines="1"
+        android:maxLength="30"
+        android:layout_marginTop="25dp"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:inputType="text"
+        android:background="@drawable/bord"
+        android:drawableStart="@drawable/ic_account"
+        android:drawablePadding="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edt_EmailMyProfile"
+        android:hint="Email"
+        android:textSize="18sp"
+        android:maxLines="1"
+        android:maxLength="30"
+        android:layout_marginTop="25dp"
+        android:drawableStart="@drawable/ic_email"
+        android:textStyle="normal"
+        android:textColor="#000"
+        android:background="@drawable/bord"
+        android:inputType="textEmailAddress"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_UpdateMyProflie"
+            android:text="UpDatde"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#013503"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_UpdateEmailMyProflie"
+            android:text="Updatde Email"
+            android:textSize="15sp"
+            android:backgroundTint="#013503"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcy_profile"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

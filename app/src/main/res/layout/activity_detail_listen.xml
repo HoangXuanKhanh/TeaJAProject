@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailListen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/Tool_ComeBackLISTeN"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#FBD2D0"
+                android:theme="@style/ThemeOverlay.AppCompat.Light" />
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpg_Nghe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btn_NavgationNghe" />
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/btn_NavgationNghe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#FBD2D0"
+            app:itemIconTint="@color/cuctom_botton_abc"
+            app:itemTextColor="@color/cuctom_botton_abc"
+            app:menu="@menu/menu_video"/>
+    </RelativeLayout>
+
+</LinearLayout>

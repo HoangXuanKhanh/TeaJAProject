@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetaileVideo">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.appbar.AppBarLayout
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/Tool_BACKVIDEO"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                android:background="#FBD2D0"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpg_Video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btn_NavgationVIDEO" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btn_NavgationVIDEO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FBD2D0"
+        app:itemIconTint="@color/cuctom_botton_abc"
+        app:itemTextColor="@color/cuctom_botton_abc"
+        app:menu="@menu/menu_video"/>
+</RelativeLayout>
+</LinearLayout>

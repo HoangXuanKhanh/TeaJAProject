@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/bt_hiragana"
+            android:title="@string/nav_Hiragana"
+            android:icon="@drawable/ic_hiragana"
+            >
+        </item>
+        <item
+            android:id="@+id/bt_katakana"
+            android:title="@string/nav_Katakana"
+            android:icon="@drawable/ic_katakana"
+            >
+        </item>
+</menu>

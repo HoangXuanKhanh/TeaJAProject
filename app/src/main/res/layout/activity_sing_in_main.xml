@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_loginss"
+    tools:context=".SingInMainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.appbar.AppBarLayout
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/Tool_BACKSing"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                android:background="#FBD2D0"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+        android:text="@string/app_name"
+        android:textSize="50sp"
+        android:textColor="#321D1D"
+        android:textStyle="normal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edt_EmailUser_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bord"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:imeOptions="actionNext"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edt_PassUser_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bord"
+        android:drawableStart="@drawable/ic_pass"
+        android:drawablePadding="10dp"
+        android:hint="PassWord"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_Logup_Up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:backgroundTint="#013003"
+        android:padding="10dp"
+        android:text="Sign Up"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="already have an acount? TeaJA"
+            android:textColor="#015905"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

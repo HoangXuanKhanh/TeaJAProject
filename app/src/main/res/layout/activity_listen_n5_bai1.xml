@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Listen.ListenN5Bai1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.appbar.AppBarLayout
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/Tool_BACKLis1N5"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                android:background="#FBD2D0"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Listen bài 1"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:id="@+id/img_disci"
+            android:src="@drawable/cd2"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_songtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textColor="#000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="00:00"
+                android:textColor="#000"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <SeekBar
+            android:id="@+id/Seekbar_Song"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/img_Prev"
+            android:src="@drawable/ic_lisenleft"
+            android:backgroundTint="@color/black"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+            <ImageButton
+                android:id="@+id/img_playSong"
+                android:src="@drawable/ic_playlisten"
+                android:backgroundTint="@color/black"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageButton
+                android:id="@+id/img_Next"
+                android:src="@drawable/ic_listenright"
+                android:backgroundTint="@color/black"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageButton
+                android:id="@+id/img_Stop"
+                android:src="@drawable/ic_listenstop"
+                android:backgroundTint="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_Click"
+            android:text="Click"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="25dp"
+            android:backgroundTint="#025105"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_Click"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>

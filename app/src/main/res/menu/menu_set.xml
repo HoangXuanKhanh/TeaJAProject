@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/MyProfile"
+        android:title="@string/menu_Profiles"
+        android:icon="@drawable/ic_person"
+        />
+    <item
+        android:id="@+id/PassWordd_Nav"
+        android:title="@string/menu_PassWord"
+        android:icon="@drawable/ic_logpass"
+        />
+    <item
+        android:id="@+id/Setting"
+        android:title="@string/menu_Setting"
+        android:icon="@drawable/ic_setting"
+        />
+</menu>

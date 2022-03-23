@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/ln_profile_update"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_nameProfile"
+            android:text="@string/app_name"
+            android:textSize="20sp"
+            android:textColor="#010C49"
+            android:padding="15dp"
+            android:textStyle="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/img_anhProfile"
+            android:src="@drawable/ic_japan5"
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
